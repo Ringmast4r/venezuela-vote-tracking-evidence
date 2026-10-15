@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chamba Juvenil — source evidence</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101112;color:#faf8f4;font-family:Arial,sans-serif}main{width:1440px;min-height:900px;padding:64px 74px;background:radial-gradient(ellipse at 88% 30%,#482b23 0,transparent 48%)}.eyebrow{font:16px monospace;letter-spacing:2px;color:#f28f6d}.top{display:flex;justify-content:space-between;align-items:center}.stamp{border:1px solid #705044;padding:10px 14px;color:#d6bcb2;font:13px monospace}h1{font-size:60px;line-height:1.08;max-width:1100px;margin:28px 0 18px;letter-spacing:-2px}.sub{font-size:23px;color:#c6c4bf;max-width:1100px;line-height:1.4;margin:0}.stage{display:flex;gap:54px;margin:40px 0 30px;align-items:center;perspective:1600px}.number{width:330px}.number strong{font-size:102px;letter-spacing:-5px;color:#f28f6d;display:block}.number p{font-size:23px;line-height:1.4;margin:10px 0}.panel{flex:1;border:1px solid #a46148;box-shadow:18px 20px 0 #221d1a,32px 32px 60px #0007;background:#1c1e21;transform:rotateY(-4deg) rotateX(2deg);border-radius:10px;overflow:hidden}.bar{padding:17px 24px;background:#292826;font:16px monospace;color:#d7c5bd}.code{padding:24px 25px;font:21px/1.8 Consolas,monospace;white-space:pre}.dim{color:#92989d}.highlight{color:#ffac8c;background:#523026;padding:5px 8px}.flow{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;margin-top:37px}.flow div{border-top:2px solid #cc5933;padding-top:17px;font-size:23px}.flow small{display:block;color:#9f9e9a;font:13px monospace;letter-spacing:1px;margin-bottom:9px}.limit{border-top:1px solid #42413e;padding-top:19px;margin-top:32px;color:#c6c4bf;font-size:19px;line-height:1.45}.footer{font:13px monospace;color:#979895;margin-top:18px}
+</style>
+<main>
+<div class="top"><div class="eyebrow">VENEZUELA / RETAINED SOURCE EVIDENCE</div><div class="stamp">REVIEWED 15 OCT 2026</div></div>
+<h1>A reported total larger<br>than the records it counts.</h1>
+<p class="sub">Chamba Juvenil code adds a fixed amount before returning the number displayed as “Total de votos.”</p>
+<div class="stage"><div class="number"><strong>+1,073</strong><p>added to the count<br>of records marked “yes”</p></div>
+<div class="panel"><div class="bar">Registro_voto.php · raw controller · lines 401–404</div><div class="code"><span class="dim">401</span>  echo json_encode([
+<span class="dim">402</span>      "response" =&gt; true,
+<span class="dim">403</span>      "resultado" =&gt; $total-&gt;total <span class="highlight">+ 273 + 800</span>,
+<span class="dim">404</span>      "total_empleado_si" =&gt; $totalVotos_si,</div></div></div>
+<div class="flow"><div><small>01 / MODEL</small>Count voto = “si” records</div><div><small>02 / CONTROLLER</small>Return count + 1,073</div><div><small>03 / BROWSER</small>Display the adjusted total</div></div>
+<div class="limit">A reporting-integrity finding in retained participation-tracking code.<br>This source does not establish an effect on certified national election results.</div>
+<div class="footer">PATRICK QUIRK / RINGMAST4R · SOURCE-ANALYSIS GRAPHIC, NOT A LIVE APPLICATION CAPTURE</div>
+</main></html>

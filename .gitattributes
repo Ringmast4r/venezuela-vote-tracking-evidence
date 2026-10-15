@@ -1,0 +1,5 @@
+*.md text eol=lf
+*.py text eol=lf
+*.html text eol=lf
+raw/** -text
+*.png binary

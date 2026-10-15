@@ -1,0 +1,84 @@
+{
+  "reviewed_utc": "2026-10-15T19:47:39.800979+00:00",
+  "scope": "Selected raw evidence files, not a complete application or Git history",
+  "origin_note": "Archive provenance supplied by the owner. Hashes verify this retained copy, not independent origin authentication. March 2026 archive dates are not proof of deployment on an election date.",
+  "files": [
+    {
+      "path": "raw/chamba-juvenil/application/controllers/Registro_voto.php",
+      "bytes": 12255,
+      "sha256": "dbf25a6f4af626422af570a4659999e44872993eda3884be114e9bae0f70eca1",
+      "retained_archive_path": "Y:\\venezuela\\venezuela-v2\\VE-DUMP\\registro-chambajuvenil\\application\\controllers\\Registro_voto.php",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "raw/chamba-juvenil/application/models/Registro_voto_model.php",
+      "bytes": 8027,
+      "sha256": "de4721fdde95b5376caa1ab2d55fae476bbed6aac41bd0c1cab995e53a57b828",
+      "retained_archive_path": "Y:\\venezuela\\venezuela-v2\\VE-DUMP\\registro-chambajuvenil\\application\\models\\Registro_voto_model.php",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "raw/chamba-juvenil/application/views/principal/admin/estadistica_votos.php",
+      "bytes": 12958,
+      "sha256": "248f628740eedf60d2e62ebacff10e6de4c87a9ef95bc7d785caf7ce993dc807",
+      "retained_archive_path": "Y:\\venezuela\\venezuela-v2\\VE-DUMP\\registro-chambajuvenil\\application\\views\\principal\\admin\\estadistica_votos.php",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "raw/chamba-juvenil/application/views/principal/admin/registro_voto.php",
+      "bytes": 22323,
+      "sha256": "52e1346e8f9546e7b40f1efe32c158a45c853747a32644ebd330d5697dc2254c",
+      "retained_archive_path": "Y:\\venezuela\\venezuela-v2\\VE-DUMP\\registro-chambajuvenil\\application\\views\\principal\\admin\\registro_voto.php",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "raw/chamba-juvenil/assets/js/admin/votos.js",
+      "bytes": 1995,
+      "sha256": "ed0a96cc5e2a26ceb1a83779ea714f0523d1a447143b7cb233e00557cad8bdca",
+      "retained_archive_path": "Y:\\venezuela\\venezuela-v2\\VE-DUMP\\registro-chambajuvenil\\assets\\js\\admin\\votos.js",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "raw/chamba-juvenil/assets/js/contador.js",
+      "bytes": 9859,
+      "sha256": "2ecc9903123c066672900ad8b5d18c8a878291876e5655e32f3c5e551f445fb4",
+      "retained_archive_path": "Y:\\venezuela\\venezuela-v2\\VE-DUMP\\registro-chambajuvenil\\assets\\js\\contador.js",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "raw/chamba-juvenil/application/core/MY_Controller.php",
+      "bytes": 1047,
+      "sha256": "91d03464feb55af72189b4d671008e3386f1b66648f520923e75e82aa1dbb700",
+      "retained_archive_path": "Y:\\venezuela\\venezuela-v2\\VE-DUMP\\registro-chambajuvenil\\application\\core\\MY_Controller.php",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "raw/chamba-juvenil/application/config/hooks.php",
+      "bytes": 417,
+      "sha256": "a0d8a2d43ca78e013b55a6ad05ae441a92c20417d5dc0043f41d2d4f34eacea0",
+      "retained_archive_path": "Y:\\venezuela\\venezuela-v2\\VE-DUMP\\registro-chambajuvenil\\application\\config\\hooks.php",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "raw/psuv/graphql/psuv-elecciones-schema.json",
+      "bytes": 18507,
+      "sha256": "d612a291c751b1d13f00aa0d3075b46a63d00d54854ea2acdfd4847e91578793",
+      "retained_archive_path": "Y:\\venezuela\\venezuela-election-api\\graphql\\psuv-elecciones-schema.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "raw/psuv/graphql/psuv-elecciones-schema-v2.json",
+      "bytes": 61178,
+      "sha256": "2d0b6ea96b62bf7d5b836d8ac41e7a7fa1679a738a66cfd4dfd3eb43bea5c82f",
+      "retained_archive_path": "Y:\\venezuela\\venezuela-election-api\\graphql\\psuv-elecciones-schema-v2.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "raw/psuv/frontend/index.html",
+      "bytes": 743,
+      "sha256": "87022d45aac0abd7802d2329c6aaf548a101eede49bd750f6276d58226ceeed8",
+      "retained_archive_path": "Y:\\venezuela\\venezuela-election-api\\election-api\\psuv-elecciones.guarico.gob.ve.html",
+      "transformation": "none; byte-for-byte copy"
+    }
+  ]
+}
